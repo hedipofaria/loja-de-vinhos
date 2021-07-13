@@ -1,0 +1,27 @@
+Desenvolvido utilizando
+	MongoDB
+	Express
+	Node.js
+	
+|---------------------------------------|---------------|--------------------------------------------------------------|
+|Rotas									|Verbo HTTP		|Descrição                                                     |
+|---------------------------------------|---------------|--------------------------------------------------------------|
+|/API									|get			|Retorna uma mensagem de boas vindas                           |
+|                                       |               |                                                              |
+|/API/clientes							|get			|Retorna todos os clientes do sistema                          |
+|/API/cliente/							|post			|Cria o cliente                                                |
+|	Params                              |               |                                                              |
+|		id		Number                  |               |                                                              |
+|		nome	String                  |               |                                                              |
+|		cpf		String                  |               |                                                              |
+|/API/cliente/:id						|get			|Retorna o cliente                                             |
+|                                       |               |                                                              |
+|/API/compras							|get			|Retorna todas as compras do sistema                           |
+|                                       |               |                                                              |
+|/API/ClientesPorMaiorValorTotal 		|get			|Listar os clientes ordenados pelo maior valor total em compras|
+|/API/ClienteMaiorCompra2016			|get			|Mostre o cliente com maior compra única no último ano (2016)  |
+|/API/ClientesFieis				 		|get			|Retorna                                                       |
+|/API/RecomendacaoVinhoPeloHistorico 	|get			|Retorna                                                       |
+|	Params                              |               |                                                              |
+|		cpf		String                  |               |                                                              |
+|---------------------------------------|---------------|--------------------------------------------------------------|

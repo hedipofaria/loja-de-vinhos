@@ -1,0 +1,17 @@
+{
+    "name": "loja-de-vinhos",
+    "version": "1.0.0",
+    "description": "Sistema para a loja de vinhos",
+    "main": "server.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --reporter spec"
+    },
+    "keywords": [],
+    "author": "Hedipo Faria",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "*",
+        "request": "^2.74.0"
+    }
+}
